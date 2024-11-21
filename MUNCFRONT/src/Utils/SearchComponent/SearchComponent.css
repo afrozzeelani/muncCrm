@@ -1,0 +1,12 @@
+.borderless-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dark-placeholder::placeholder {
+  color: black;
+}
+
+.light-placeholder::placeholder {
+  color: rgba(255, 255, 255, 0.603);
+}
